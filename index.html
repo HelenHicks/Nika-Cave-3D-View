@@ -14,6 +14,7 @@
 <script src="./threejs/three.min.js"></script>
 <script src="./threejs/OrbitControls.js"></script>
 <script src="./threejs/ViewHelper.js"></script>
+<script src="./tweenjs/tween.js"></script>
 <script src="./Qgis2threejs.js"></script>
 </head>
 <body>
@@ -112,7 +113,9 @@
 </div>
 
 <script>
+Q3D.Config.viewpoint = {lookAt:{x:629074.6112020324,y:3945361.021903185,z:7.59327900702551e-17},pos:{x:629340.3175254725,y:3945694.4121247036,z:1098.8416166932552}};
 Q3D.Config.localMode = true;
+Q3D.Config.animation.enabled = true;
 Q3D.Config.northArrow.enabled = true;
 Q3D.Config.northArrow.color = 0x666666;
 
